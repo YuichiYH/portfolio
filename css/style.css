@@ -29,5 +29,6 @@
 #name{
     background-color: red;
     max-height: 100%;
+    display: flex;
     align-items: center;
 }
