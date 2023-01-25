@@ -1,4 +1,4 @@
-#body {
+body {
     background-color: #e0e0e0;
 }
 
@@ -12,13 +12,32 @@
     border-radius: 20px;
 }
 
+.font {
+    font-family: 'Poppins', sans-serif;
+}
+
 .write-white {
     color: #ffffff;
 }
 
+.round-pic {
+    border-radius: 100%;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+
+.badges {
+    width: 5%;
+    border-width: 1px;
+}
+
 #business-card {
-    background-color: darkblue;
-    margin: 0%;
+    background-color: #003C5E;
+    padding: 2%;
+    display: flex;
+    margin: auto;
+    width: auto !important;
+    
 }
 
 #me {
@@ -29,18 +48,23 @@
 }
 
 #profile-picture {
-    border-radius: 100%;
-    width: 30%;
-    height: 30%;
-    border-style: solid;
-    border-color: rgb(255, 255, 255);
-    margin-left: 5%;
+    width: 20%;
+    height: 20%;
+    margin-right: 5%;
 }
 
 #name{
-    font-family: 'Poppins', sans-serif;
-    max-height: 100%;
+    font-size: larger;
     display: flex;
     align-items: center;
-    margin-right: 50px;
+}
+
+#title {
+    line-height: 0%;
+    font-size: small;
+    padding-bottom: 5%;
+}
+
+#contacts {
+    padding: 2%;
 }
