@@ -2,6 +2,11 @@ body {
     background-color: #e0e0e0;
 }
 
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .rect-background {
     background-color: #ffffff;
     margin: auto;
@@ -14,6 +19,19 @@ body {
 
 .font {
     font-family: 'Poppins', sans-serif;
+}
+
+.font-contact{
+    font-size: small;
+    padding-left: 1%;
+    
+}
+
+.contact-list {
+    padding-top: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .write-white {
@@ -48,8 +66,8 @@ body {
 }
 
 #profile-picture {
-    width: 20%;
-    height: 20%;
+    width: 30%;
+    height: 30%;
     margin-right: 5%;
 }
 
@@ -67,4 +85,5 @@ body {
 #contacts {
     padding-top: 2%;
     padding-left: 2%;
+
 }
