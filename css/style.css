@@ -45,7 +45,7 @@ a{
 }
 
 .badges {
-    width: 5%;
+    width: 20px;
     border-width: 1px;
 }
 
@@ -66,8 +66,8 @@ a{
 }
 
 #profile-picture {
-    width: 30%;
-    height: 30%;
+    width: 120px;
+    height: 120px;
     margin-right: 5%;
 }
 
