@@ -10,7 +10,7 @@ a{
 .rect-background {
     background-color: #ffffff;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 2%;
     width: 50%;
     padding: 2% 5%;
     
@@ -49,6 +49,15 @@ a{
     border-width: 1px;
 }
 
+.topic {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: lightgray;
+    width: 175px;
+    text-align: center;
+    font-size: 25px ;
+}
+
 #business-card {
     background-color: #003C5E;
     padding: 2%;
@@ -66,8 +75,8 @@ a{
 }
 
 #profile-picture {
-    width: 30%;
-    height: 30%;
+    width: 150px;
+    height: 150px;
     margin-right: 5%;
 }
 
@@ -86,4 +95,9 @@ a{
     padding-top: 2%;
     padding-left: 2%;
 
+}
+
+#topic-description {
+    text-indent: 50px;
+    color: rgb(50, 50, 50);
 }
